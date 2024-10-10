@@ -1,0 +1,59 @@
+/* styles.css */
+body {
+    font-family: 'Georgia', serif; /* A softer font */
+    background-color: #f9f2f9; /* Light pink background */
+}
+
+.contact-form {
+    background: #fff;
+    padding: 30px; /* Increased padding */
+    margin: 50px auto;
+    border-radius: 15px; /* Rounded corners */
+    max-width: 400px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.contact-form h2 {
+    margin-bottom: 20px;
+    color: #d5006d; /* A bright pink for headers */
+    text-align: center;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 5px;
+    color: #d5006d; /* Matching label color */
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 12px; /* Increased padding */
+    margin-bottom: 15px; /* Increased margin */
+    border: 2px solid #d5006d; /* Pink border */
+    border-radius: 8px; /* Rounded borders */
+    font-size: 16px; /* Increased font size */
+    box-sizing: border-box; /* Ensures padding is included in total width/height */
+}
+
+/* Set a smaller height for the textarea */
+textarea {
+    height: 30px; /* Smaller height for a more compact look */
+    resize: none; /* Disable resizing to keep the size uniform */
+}
+
+input[type="submit"] {
+    background-color: #d5006d; /* Pink button */
+    color: white;
+    border: none;
+    padding: 12px 25px; /* Increased padding */
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 18px; /* Increased font size */
+    margin-top: 10px; /* Added margin for better spacing above the button */
+}
+
+input[type="submit"]:hover {
+    background-color: #c2185b; /* Darker pink on hover */
+}
